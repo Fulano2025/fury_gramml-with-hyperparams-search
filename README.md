@@ -9,7 +9,6 @@ Vazquez, H. C., Sánchez, J., & Carrascosa, R. GramML: Exploring Context-Free Gr
 Extended approach with hyperparameter search:
 Coming soon...
 
-> Notice: This project uses autosklearn version "0.7.0". During benchmarking, we found that this version was compatible when using [mosaic](https://github.com/herilalaina/mosaic_ml). However, some components have been modified to avoid errors with gramml. It is important to note that this version may be outdated and may not receive security updates, so it is recommended to use the latest stable version of [autosklearn](https://github.com/automl/auto-sklearn). Nevertheless, we have verified that this modified version works correctly in the context of this project for experimental purposes only. The developers of this project are not responsible for any potential problems or vulnerabilities that may arise when using this code.
 
 ## Load Dataset
 Load the Iris dataset from sklearn datasets
@@ -167,6 +166,10 @@ print("first 10 simulation rounds", [v for k,v in exploration_db.items()][:10])
 
     first 10 simulation rounds [0.9607843137254902, 0.0, 0.9444444444444445, 0.0, 0.3333333333333333, 0.0, 0.9411764705882352, 0.9607843137254902, 0.533868092691622, 0.0]
 
+
+## Notice
+
+This project uses autosklearn version "0.7.0". During benchmarking, we found that this version was compatible when using [mosaic](https://github.com/herilalaina/mosaic_ml). However, some components have been modified to avoid errors with gramml. It is important to note that this version may be outdated and may not receive security updates, so it is recommended to use the latest stable version of [autosklearn](https://github.com/automl/auto-sklearn). Nevertheless, we have verified that this modified version works correctly in the context of this project for experimental purposes only. The developers of this project are not responsible for any potential problems or vulnerabilities that may arise when using this code.
 
 ## License
 
